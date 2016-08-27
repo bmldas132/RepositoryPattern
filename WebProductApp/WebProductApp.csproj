@@ -174,13 +174,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ProductApp.core\ProductApp.core.csproj">
+      <Project>{de548b26-c17a-407c-9dec-f409262039b2}</Project>
+      <Name>ProductApp.core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\productApp.Infrastructure\productApp.Infrastructure.csproj">
       <Project>{7904dc98-e183-49df-b45c-3680de71f6d1}</Project>
       <Name>productApp.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="E:\CodeFirstApproachDemo\ProductApp.core\ProductApp.core.csproj">
-      <Project>{de548b26-c17a-407c-9dec-f409262039b2}</Project>
-      <Name>ProductApp.core</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
